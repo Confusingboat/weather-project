@@ -8,10 +8,17 @@
     <SpaRoot>ClientApp\</SpaRoot>
     <DefaultItemExcludes>$(DefaultItemExcludes);$(SpaRoot)node_modules\**</DefaultItemExcludes>
     <RootNamespace>InterviewProject</RootNamespace>
+    <UserSecretsId>2c549ab7-da31-4b6f-8dfc-75b124051432</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+      <_Parameter1>InterviewProject.Tests</_Parameter1>
+    </AssemblyAttribute>
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="3.1.0" />
+    <PackageReference Include="newtonsoft.json" Version="13.0.2" />
   </ItemGroup>
 
   <ItemGroup>
