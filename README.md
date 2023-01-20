@@ -6,6 +6,7 @@ Welcome to a fun interview project.  Please do not take more than a few hours to
 1. Install [.NET Core 3.0 SDK](https://dotnet.microsoft.com/download/dotnet-core/3.0)
 1. Install [node.js](https://nodejs.org/en/download/)
 1. Install [Visual Studio](https://visualstudio.microsoft.com/vs/community/) or [Visual Studio Code](https://code.visualstudio.com/download)
+1. Set your AccuWeather API key in the user secrets `secrets.json` at the key `AccuWeather:ApiKey`
 1. Run (npm takes a few minutes on first launch, so be patient)
 
 ## Your Task
