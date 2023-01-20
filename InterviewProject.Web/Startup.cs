@@ -1,4 +1,8 @@
 using System.IO;
+using System.Net.Http;
+using InterviewProject.Services.Weather;
+using InterviewProject.Services.Weather.AccuWeather;
+using InterviewProject.Services.Weather.Static;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -11,6 +15,9 @@ namespace InterviewProject
 {
     public class Startup
     {
+        // The user secrets id from the main csproj
+        internal const string UserSecretsId = "2c549ab7-da31-4b6f-8dfc-75b124051432";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -23,6 +30,11 @@ namespace InterviewProject
         {
 
             services.AddControllersWithViews();
+            services.AddScoped(sp => new HttpClient());
+            services.AddAccuWeatherConfiguration(Configuration);
+            // Use StaticWeatherService if encountering issues with AccuWeather
+            //services.AddSingleton<IWeatherService, StaticWeatherService>();
+            services.AddScoped<IWeatherService, AccuWeatherWeatherService>();
 
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

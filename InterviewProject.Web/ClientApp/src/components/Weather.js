@@ -5,7 +5,11 @@ export class Weather extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { forecasts: [], loading: true };
+    this.state = { 
+      postalCode: '55433', 
+      forecasts: [], 
+      loading: true 
+    };
   }
 
   componentDidMount() {
@@ -18,8 +22,8 @@ export class Weather extends Component {
         <thead>
           <tr>
             <th>Date</th>
-            <th>Temp. (C)</th>
-            <th>Temp. (F)</th>
+            <th>Low Temp (F)</th>
+            <th>High Temp (F)</th>
             <th>Summary</th>
           </tr>
         </thead>
@@ -27,8 +31,8 @@ export class Weather extends Component {
           {forecasts.map(forecast =>
             <tr key={forecast.date}>
               <td>{forecast.date}</td>
-              <td>{forecast.temperatureC}</td>
-              <td>{forecast.temperatureF}</td>
+              <td>{forecast.minTemperatureF}</td>
+              <td>{forecast.maxTemperatureF}</td>
               <td>{forecast.summary}</td>
             </tr>
           )}
@@ -46,13 +50,27 @@ export class Weather extends Component {
       <div>
         <h1 id="tabelLabel" >Weather forecast</h1>
         <p>This component demonstrates fetching data from the server.</p>
+        <div className="search">
+          <input 
+            placeholder="Postal Code"
+            //value={this.state.postalCode}
+            onChange={(e) => this.tryRepopulate(e.target.value)}
+          />
+        </div>
         {contents}
       </div>
     );
   }
 
+  tryRepopulate(text) {
+    // Only handle US short zip codes for now
+    if (text.length == 5) {
+      this.setState({ postalCode: text, loading: true }, this.populateWeatherData);
+    }
+  }
+
   async populateWeatherData() {
-    const response = await fetch('weatherforecast');
+    const response = await fetch(`weather/forecast?postalCode=${this.state.postalCode}`);
     const data = await response.json();
     this.setState({ forecasts: data, loading: false });
   }

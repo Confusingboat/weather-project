@@ -1,0 +1,1407 @@
+HTTP/1.1 200 OK
+Accept:
+*/*
+Accept-Encoding:
+gzip
+Accept-Language:
+en-US
+Access-Control-Allow-Credentials:
+true
+Access-Control-Allow-Headers:
+origin
+Access-Control-Allow-Methods:
+GET
+Access-Control-Allow-Origin:
+*
+Access-Control-Max-Age:
+3628800
+Akamai-GRN:
+0.129eca17.1674148066.85d8b28
+Cache-Control:
+public
+Connection:
+keep-alive
+Content-Encoding:
+gzip
+Content-Type:
+application/json; charset=utf-8
+Date:
+Thu, 19 Jan 2023 17:07:46 GMT
+Expires:
+Fri, 20 Jan 2023 17:05:29 GMT
+Host:
+api.accuweather.com
+Origin:
+https://developer.accuweather.com
+RateLimit-Limit:
+50
+RateLimit-Remaining:
+49
+Referer:
+https://developer.accuweather.com/
+Request-Context:
+appId=cid-v1:cc223195-bccf-4201-9cde-374567896e20
+sec-ch-ua:
+Not_A Brand";v="99
+sec-ch-ua-mobile:
+?0
+sec-ch-ua-platform:
+Windows
+Sec-Fetch-Dest:
+empty
+Sec-Fetch-Mode:
+cors
+Sec-Fetch-Site:
+cross-site
+Sec-GPC:
+1
+Transfer-Encoding:
+chunked
+User-Agent:
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML
+Vary:
+Accept-Encoding
+X-Forwarded-For:
+73.5.178.61
+X-Forwarded-Port:
+443
+X-Forwarded-Proto:
+https
+[
+  {
+    "Version": 1,
+    "Key": "235328",
+    "Type": "City",
+    "Rank": 55,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "AFR",
+      "LocalizedName": "Africa",
+      "EnglishName": "Africa"
+    },
+    "Country": {
+      "ID": "ML",
+      "LocalizedName": "Mali",
+      "EnglishName": "Mali"
+    },
+    "AdministrativeArea": {
+      "ID": "4",
+      "LocalizedName": "Ségou",
+      "EnglishName": "Ségou",
+      "Level": 1,
+      "LocalizedType": "Region",
+      "EnglishType": "Region",
+      "CountryID": "ML"
+    },
+    "TimeZone": {
+      "Code": "GMT",
+      "Name": "Africa/Bamako",
+      "GmtOffset": 0,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 13.297,
+      "Longitude": -4.897,
+      "Elevation": {
+        "Metric": {
+          "Value": 277,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 908,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "San",
+        "EnglishName": "San"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "115371",
+    "Type": "City",
+    "Rank": 75,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "AFR",
+      "LocalizedName": "Africa",
+      "EnglishName": "Africa"
+    },
+    "Country": {
+      "ID": "CI",
+      "LocalizedName": "Cote D'Ivoire",
+      "EnglishName": "Cote D'Ivoire"
+    },
+    "AdministrativeArea": {
+      "ID": "SV",
+      "LocalizedName": "Savanes",
+      "EnglishName": "Savanes",
+      "Level": 1,
+      "LocalizedType": "District",
+      "EnglishType": "District",
+      "CountryID": "CI"
+    },
+    "TimeZone": {
+      "Code": "GMT",
+      "Name": "Africa/Abidjan",
+      "GmtOffset": 0,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 10.391,
+      "Longitude": -6.444,
+      "Elevation": {
+        "Metric": {
+          "Value": 353,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1157,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "3500398",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "MM",
+      "LocalizedName": "Myanmar",
+      "EnglishName": "Myanmar"
+    },
+    "AdministrativeArea": {
+      "ID": "06",
+      "LocalizedName": "Yangon",
+      "EnglishName": "Yangon",
+      "Level": 1,
+      "LocalizedType": "Region",
+      "EnglishType": "Region",
+      "CountryID": "MM"
+    },
+    "TimeZone": {
+      "Code": "MMT",
+      "Name": "Asia/Rangoon",
+      "GmtOffset": 6.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 16.698,
+      "Longitude": 96.012,
+      "Elevation": {
+        "Metric": {
+          "Value": 12,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 39,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Yangon (South)",
+        "EnglishName": "Yangon (South)"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Twantay",
+        "EnglishName": "Twantay"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "FutureRadar",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "3500157",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "MM",
+      "LocalizedName": "Myanmar",
+      "EnglishName": "Myanmar"
+    },
+    "AdministrativeArea": {
+      "ID": "06",
+      "LocalizedName": "Yangon",
+      "EnglishName": "Yangon",
+      "Level": 1,
+      "LocalizedType": "Region",
+      "EnglishType": "Region",
+      "CountryID": "MM"
+    },
+    "TimeZone": {
+      "Code": "MMT",
+      "Name": "Asia/Rangoon",
+      "GmtOffset": 6.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 17.562,
+      "Longitude": 95.934,
+      "Elevation": {
+        "Metric": {
+          "Value": 24,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 78,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Yangon (North)",
+        "EnglishName": "Yangon (North)"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Taikkyi",
+        "EnglishName": "Taikkyi"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "FutureRadar",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "3502115",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "MM",
+      "LocalizedName": "Myanmar",
+      "EnglishName": "Myanmar"
+    },
+    "AdministrativeArea": {
+      "ID": "03",
+      "LocalizedName": "Magway",
+      "EnglishName": "Magway",
+      "Level": 1,
+      "LocalizedType": "Region",
+      "EnglishType": "Region",
+      "CountryID": "MM"
+    },
+    "TimeZone": {
+      "Code": "MMT",
+      "Name": "Asia/Rangoon",
+      "GmtOffset": 6.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 19.685,
+      "Longitude": 94.876,
+      "Elevation": {
+        "Metric": {
+          "Value": 241,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 790,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Thayet",
+        "EnglishName": "Thayet"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Minhla",
+        "EnglishName": "Minhla"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "FutureRadar",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "1507143",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "JP",
+      "LocalizedName": "Japan",
+      "EnglishName": "Japan"
+    },
+    "AdministrativeArea": {
+      "ID": "46",
+      "LocalizedName": "Kagoshima",
+      "EnglishName": "Kagoshima",
+      "Level": 1,
+      "LocalizedType": "Prefecture",
+      "EnglishType": "Prefecture",
+      "CountryID": "JP"
+    },
+    "TimeZone": {
+      "Code": "JST",
+      "Name": "Asia/Tokyo",
+      "GmtOffset": 9,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 27.867,
+      "Longitude": 128.95,
+      "Elevation": {
+        "Metric": {
+          "Value": 193,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 633,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "ParentCity": {
+      "Key": "2333672",
+      "LocalizedName": "Tokunoshima-cho",
+      "EnglishName": "Tokunoshima-cho"
+    },
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Tokunoshima-cho",
+        "EnglishName": "Tokunoshima-cho"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "Radar"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "1428863",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "MM",
+      "LocalizedName": "Myanmar",
+      "EnglishName": "Myanmar"
+    },
+    "AdministrativeArea": {
+      "ID": "03",
+      "LocalizedName": "Magway",
+      "EnglishName": "Magway",
+      "Level": 1,
+      "LocalizedType": "Region",
+      "EnglishType": "Region",
+      "CountryID": "MM"
+    },
+    "TimeZone": {
+      "Code": "MMT",
+      "Name": "Asia/Rangoon",
+      "GmtOffset": 6.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 21.418,
+      "Longitude": 94.087,
+      "Elevation": {
+        "Metric": {
+          "Value": 428,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1403,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Gangaw",
+        "EnglishName": "Gangaw"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Saw",
+        "EnglishName": "Saw"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "FutureRadar",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "3002341",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "IN",
+      "LocalizedName": "India",
+      "EnglishName": "India"
+    },
+    "AdministrativeArea": {
+      "ID": "UT",
+      "LocalizedName": "Uttarakhand",
+      "EnglishName": "Uttarakhand",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "IN"
+    },
+    "TimeZone": {
+      "Code": "IST",
+      "Name": "Asia/Kolkata",
+      "GmtOffset": 5.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 30.488,
+      "Longitude": 78.931,
+      "Elevation": {
+        "Metric": {
+          "Value": 1923,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 6310,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Rudraprayag",
+        "EnglishName": "Rudraprayag"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Jakholi",
+        "EnglishName": "Jakholi"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "PremiumAirQuality"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "3003896",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "IN",
+      "LocalizedName": "India",
+      "EnglishName": "India"
+    },
+    "AdministrativeArea": {
+      "ID": "UT",
+      "LocalizedName": "Uttarakhand",
+      "EnglishName": "Uttarakhand",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "IN"
+    },
+    "TimeZone": {
+      "Code": "IST",
+      "Name": "Asia/Kolkata",
+      "GmtOffset": 5.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 30.316,
+      "Longitude": 79.036,
+      "Elevation": {
+        "Metric": {
+          "Value": 812,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 2663,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Rudraprayag",
+        "EnglishName": "Rudraprayag"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Rudraprayag",
+        "EnglishName": "Rudraprayag"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "PremiumAirQuality"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2985505",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "IN",
+      "LocalizedName": "India",
+      "EnglishName": "India"
+    },
+    "AdministrativeArea": {
+      "ID": "MP",
+      "LocalizedName": "Madhya Pradesh",
+      "EnglishName": "Madhya Pradesh",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "IN"
+    },
+    "TimeZone": {
+      "Code": "IST",
+      "Name": "Asia/Kolkata",
+      "GmtOffset": 5.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 23.578,
+      "Longitude": 77.904,
+      "Elevation": {
+        "Metric": {
+          "Value": 423,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1387,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Vidisha",
+        "EnglishName": "Vidisha"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Vidisha",
+        "EnglishName": "Vidisha"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "FutureRadar",
+      "MinuteCast",
+      "PremiumAirQuality"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "3325937",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "IN",
+      "LocalizedName": "India",
+      "EnglishName": "India"
+    },
+    "AdministrativeArea": {
+      "ID": "HP",
+      "LocalizedName": "Himachal Pradesh",
+      "EnglishName": "Himachal Pradesh",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "IN"
+    },
+    "TimeZone": {
+      "Code": "IST",
+      "Name": "Asia/Kolkata",
+      "GmtOffset": 5.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 31.006,
+      "Longitude": 76.936,
+      "Elevation": {
+        "Metric": {
+          "Value": 1134,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 3719,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Solan",
+        "EnglishName": "Solan"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Krishangarh",
+        "EnglishName": "Krishangarh"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "PremiumAirQuality"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "3013325",
+    "Type": "City",
+    "Rank": 85,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "IN",
+      "LocalizedName": "India",
+      "EnglishName": "India"
+    },
+    "AdministrativeArea": {
+      "ID": "UT",
+      "LocalizedName": "Uttarakhand",
+      "EnglishName": "Uttarakhand",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "IN"
+    },
+    "TimeZone": {
+      "Code": "IST",
+      "Name": "Asia/Kolkata",
+      "GmtOffset": 5.5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 29.613,
+      "Longitude": 80.089,
+      "Elevation": {
+        "Metric": {
+          "Value": 1195,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 3919,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Pithoragarh",
+        "EnglishName": "Pithoragarh"
+      },
+      {
+        "Level": 3,
+        "LocalizedName": "Gangolihat",
+        "EnglishName": "Gangolihat"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "Alerts",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast",
+      "PremiumAirQuality"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "635326",
+    "Type": "City",
+    "Rank": 600,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "PK",
+      "LocalizedName": "Pakistan",
+      "EnglishName": "Pakistan"
+    },
+    "AdministrativeArea": {
+      "ID": "SD",
+      "LocalizedName": "Sindh",
+      "EnglishName": "Sindh",
+      "Level": 1,
+      "LocalizedType": "Province",
+      "EnglishType": "Province",
+      "CountryID": "PK"
+    },
+    "TimeZone": {
+      "Code": "PKT",
+      "Name": "Asia/Karachi",
+      "GmtOffset": 5,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 26.517,
+      "Longitude": 68.167,
+      "Elevation": {
+        "Metric": {
+          "Value": 25,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 82,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Nawabshah",
+        "EnglishName": "Nawabshah"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "ForecastConfidence",
+      "FutureRadar",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "1044523",
+    "Type": "City",
+    "Rank": 600,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "AFR",
+      "LocalizedName": "Africa",
+      "EnglishName": "Africa"
+    },
+    "Country": {
+      "ID": "BF",
+      "LocalizedName": "Burkina Faso",
+      "EnglishName": "Burkina Faso"
+    },
+    "AdministrativeArea": {
+      "ID": "01",
+      "LocalizedName": "Boucle du Mouhoun",
+      "EnglishName": "Boucle du Mouhoun",
+      "Level": 1,
+      "LocalizedType": "Region",
+      "EnglishType": "Region",
+      "CountryID": "BF"
+    },
+    "TimeZone": {
+      "Code": "GMT",
+      "Name": "Africa/Ouagadougou",
+      "GmtOffset": 0,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 11.85,
+      "Longitude": -3.267,
+      "Elevation": {
+        "Metric": {
+          "Value": 306,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1003,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Bale",
+        "EnglishName": "Bale"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "1044522",
+    "Type": "City",
+    "Rank": 600,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "AFR",
+      "LocalizedName": "Africa",
+      "EnglishName": "Africa"
+    },
+    "Country": {
+      "ID": "BF",
+      "LocalizedName": "Burkina Faso",
+      "EnglishName": "Burkina Faso"
+    },
+    "AdministrativeArea": {
+      "ID": "10",
+      "LocalizedName": "Nord",
+      "EnglishName": "Nord",
+      "Level": 1,
+      "LocalizedType": "Region",
+      "EnglishType": "Region",
+      "CountryID": "BF"
+    },
+    "TimeZone": {
+      "Code": "GMT",
+      "Name": "Africa/Ouagadougou",
+      "GmtOffset": 0,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 13.419,
+      "Longitude": -2.431,
+      "Elevation": {
+        "Metric": {
+          "Value": 321,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 1052,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Zondona",
+        "EnglishName": "Zondona"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "1129198",
+    "Type": "City",
+    "Rank": 600,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "AFR",
+      "LocalizedName": "Africa",
+      "EnglishName": "Africa"
+    },
+    "Country": {
+      "ID": "BJ",
+      "LocalizedName": "Benin",
+      "EnglishName": "Benin"
+    },
+    "AdministrativeArea": {
+      "ID": "ZO",
+      "LocalizedName": "Zou",
+      "EnglishName": "Zou",
+      "Level": 1,
+      "LocalizedType": "Department",
+      "EnglishType": "Department",
+      "CountryID": "BJ"
+    },
+    "TimeZone": {
+      "Code": "WAT",
+      "Name": "Africa/Porto-Novo",
+      "GmtOffset": 1,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 7.633,
+      "Longitude": 1.717,
+      "Elevation": {
+        "Metric": {
+          "Value": 181,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 593,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Djidja",
+        "EnglishName": "Djidja"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "2043537",
+    "Type": "City",
+    "Rank": 600,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "AFR",
+      "LocalizedName": "Africa",
+      "EnglishName": "Africa"
+    },
+    "Country": {
+      "ID": "ML",
+      "LocalizedName": "Mali",
+      "EnglishName": "Mali"
+    },
+    "AdministrativeArea": {
+      "ID": "5",
+      "LocalizedName": "Mopti",
+      "EnglishName": "Mopti",
+      "Level": 1,
+      "LocalizedType": "Region",
+      "EnglishType": "Region",
+      "CountryID": "ML"
+    },
+    "TimeZone": {
+      "Code": "GMT",
+      "Name": "Africa/Bamako",
+      "GmtOffset": 0,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 14.351,
+      "Longitude": -2.113,
+      "Elevation": {
+        "Metric": {
+          "Value": 277,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 908,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [
+      {
+        "Level": 2,
+        "LocalizedName": "Koro",
+        "EnglishName": "Koro"
+      }
+    ],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "786732",
+    "Type": "City",
+    "Rank": 600,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "ASI",
+      "LocalizedName": "Asia",
+      "EnglishName": "Asia"
+    },
+    "Country": {
+      "ID": "MY",
+      "LocalizedName": "Malaysia",
+      "EnglishName": "Malaysia"
+    },
+    "AdministrativeArea": {
+      "ID": "13",
+      "LocalizedName": "Sarawak",
+      "EnglishName": "Sarawak",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "MY"
+    },
+    "TimeZone": {
+      "Code": "MYT",
+      "Name": "Asia/Kuching",
+      "GmtOffset": 8,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 1.033,
+      "Longitude": 111.783,
+      "Elevation": {
+        "Metric": {
+          "Value": 68,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 223,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "FutureRadar",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "924434",
+    "Type": "City",
+    "Rank": 600,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "AFR",
+      "LocalizedName": "Africa",
+      "EnglishName": "Africa"
+    },
+    "Country": {
+      "ID": "NG",
+      "LocalizedName": "Nigeria",
+      "EnglishName": "Nigeria"
+    },
+    "AdministrativeArea": {
+      "ID": "BA",
+      "LocalizedName": "Bauchi",
+      "EnglishName": "Bauchi",
+      "Level": 1,
+      "LocalizedType": "State",
+      "EnglishType": "State",
+      "CountryID": "NG"
+    },
+    "TimeZone": {
+      "Code": "WAT",
+      "Name": "Africa/Lagos",
+      "GmtOffset": 1,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 10.119,
+      "Longitude": 9.608,
+      "Elevation": {
+        "Metric": {
+          "Value": 621,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 2036,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "MinuteCast"
+    ]
+  },
+  {
+    "Version": 1,
+    "Key": "1869214",
+    "Type": "City",
+    "Rank": 600,
+    "LocalizedName": "San",
+    "EnglishName": "San",
+    "PrimaryPostalCode": "",
+    "Region": {
+      "ID": "AFR",
+      "LocalizedName": "Africa",
+      "EnglishName": "Africa"
+    },
+    "Country": {
+      "ID": "SL",
+      "LocalizedName": "Sierra Leone",
+      "EnglishName": "Sierra Leone"
+    },
+    "AdministrativeArea": {
+      "ID": "S",
+      "LocalizedName": "Southern",
+      "EnglishName": "Southern",
+      "Level": 1,
+      "LocalizedType": "Province",
+      "EnglishType": "Province",
+      "CountryID": "SL"
+    },
+    "TimeZone": {
+      "Code": "GMT",
+      "Name": "Africa/Freetown",
+      "GmtOffset": 0,
+      "IsDaylightSaving": false,
+      "NextOffsetChange": null
+    },
+    "GeoPosition": {
+      "Latitude": 7.519,
+      "Longitude": -12.708,
+      "Elevation": {
+        "Metric": {
+          "Value": 1,
+          "Unit": "m",
+          "UnitType": 5
+        },
+        "Imperial": {
+          "Value": 3,
+          "Unit": "ft",
+          "UnitType": 0
+        }
+      }
+    },
+    "IsAlias": false,
+    "SupplementalAdminAreas": [],
+    "DataSets": [
+      "AirQualityCurrentConditions",
+      "AirQualityForecasts",
+      "MinuteCast"
+    ]
+  }
+]
